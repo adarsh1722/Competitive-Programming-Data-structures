@@ -40,7 +40,7 @@ int Top()
 
 int main()
 {
-    // opeartions
+    // operations
     push(2);print();
     push(4);print();
     push(3);print();
