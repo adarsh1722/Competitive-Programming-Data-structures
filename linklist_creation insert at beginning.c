@@ -11,7 +11,7 @@ struct Node* head;//globally declared head
 //  inserting a node into list
 void insert(int x)
 {
-    struct Node* newnode=(struct Node*)malloc(sizeof(struct Node));
+    struct Node* newnode=(struct Node*)malloc(sizeof(struct Node));// allocating memory
     newnode->data=x;
     newnode->next=head;
     head=newnode;
