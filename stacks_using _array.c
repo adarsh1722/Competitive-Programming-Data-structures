@@ -2,7 +2,7 @@
 
 int A[101]={0};
 int top=-1;
-
+// push operation
 void push(int x)
 {
     if(top==101-1)
@@ -12,7 +12,7 @@ void push(int x)
     }
     A[++top]=x;
 }
-
+// pop opeartion
 void pop()
 {
     if(top==-1)
@@ -23,7 +23,7 @@ void pop()
     top--;
 }
 
-
+// print stack
 void print()
 {
     int i;
@@ -32,7 +32,7 @@ void print()
     printf(" %d ",A[i]);
     printf("\n");
 }
-
+// print top
 int Top()
 {
     return A[top];
@@ -40,6 +40,7 @@ int Top()
 
 int main()
 {
+    // opeartions
     push(2);print();
     push(4);print();
     push(3);print();
