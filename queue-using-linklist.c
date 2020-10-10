@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include <stdlib.h>
+
+// creating node
 struct node
 {
     int data;
@@ -10,6 +12,7 @@ struct node
 struct node* front = 0;
 struct node* rear = 0;
 
+// display
 void display()
 {
     struct node* temp;
@@ -33,8 +36,7 @@ void display()
     
 }
 
-
-
+// inserting data
 void insert()
 {
     int x;
@@ -61,7 +63,7 @@ void insert()
     
 
 }
-
+// deleting first 
 void delete()
 {
     if(front==0 && rear == 0)
@@ -75,7 +77,7 @@ void delete()
 
 
 }
-
+// top element
 void peek()
 {
    if(front==0 && rear ==0)
