@@ -2,7 +2,7 @@
 using namespace std;
 #define For(x) for(int i=0;i<x;i++)
 
-// worst case: O(log2n) best case :O(1) 
+// worst case: O(log2n) best case :O(1)  average case:O(logn)
 int binary_search(int a[],int n, int x)
 {
   int low=0,high=n-1,mid=0;
